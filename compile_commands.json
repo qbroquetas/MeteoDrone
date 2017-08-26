@@ -1,0 +1,12 @@
+[
+    {
+        "command": "cc -c -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DSTM32F334x8 -IDrivers/CMSIS/Device/ST/STM32F3xx/Include -IDrivers/CMSIS/Include -ISource -Og -Wall -fdata-sections -ffunction-sections -MFbuild/main.d -MTbuild/main.d -Wa,-a,-ad,-alms=build/main.lst -o build/main.o Source/main.cpp",
+        "directory": "/home/ixion/Projects/STM32/LCD_Thermometer",
+        "file": "/home/ixion/Projects/STM32/LCD_Thermometer/Source/main.cpp"
+    },
+    {
+        "command": "cc -c -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DSTM32F334x8 -IDrivers/CMSIS/Device/ST/STM32F3xx/Include -IDrivers/CMSIS/Include -ISource -Og -Wall -fdata-sections -ffunction-sections -MFbuild/system.d -MTbuild/system.d -Wa,-a,-ad,-alms=build/system.lst -o build/system.o Source/system.cpp",
+        "directory": "/home/ixion/Projects/STM32/LCD_Thermometer",
+        "file": "/home/ixion/Projects/STM32/LCD_Thermometer/Source/system.cpp"
+    }
+]
